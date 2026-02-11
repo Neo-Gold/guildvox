@@ -1,0 +1,8 @@
+lark
+pyserial
+requests
+suds
+yattag
+
+[wx]
+wxPython

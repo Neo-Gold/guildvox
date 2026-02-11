@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: chirp
+Version: 0
+Summary: A cross-platform cross-radio programming tool
+Home-page: https://chirp.danplanet.com
+Requires-Python: >=3.10,<4
+License-File: COPYING
+Requires-Dist: pyserial
+Requires-Dist: requests
+Requires-Dist: yattag
+Requires-Dist: suds
+Requires-Dist: lark
+Provides-Extra: wx
+Requires-Dist: wxPython; extra == "wx"
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

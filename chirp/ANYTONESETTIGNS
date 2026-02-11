@@ -1,0 +1,85 @@
+group 'function': {
+	password.digits:123456
+	radio_settings.mrChanA:153
+	radio_settings.mrChanB:117
+	radio_settings.vfomrA:MR
+	radio_settings.vfomrB:MR
+	settings.autoPowerOff:Off
+	settings.autoPowerOn:False
+	settings.backlightBr:3
+	settings.beepVolume:OFF
+	settings.channelLocked:True
+	settings.displayMode:Channel
+	settings.dualWatch:True
+	settings.frequencyStep:2.5 kHz
+	settings.knobMode:Channel
+	settings.main:A
+	settings.micKeyBrite:17
+	settings.monKeyFunction:Squelch off momentary
+	settings.powerOnPasswd:False
+	settings.powerOnReset:True
+	settings.saveChParameter:True
+	settings.scanRecoveryT:10 seconds
+	settings.scanType:Carrier operated (CO)
+	settings.screenDir:Positive
+	settings.speakerSwitch:Host on | Hand mic on
+	settings.speakerVol:21
+	settings.squelchLevelA:1
+	settings.squelchLevelB:1
+	settings.steFrequency:Off
+	settings.steType:Silent
+	settings.tbstFrequency:1750 Hz
+	settings.timeOutTimer:3 minutes
+	settings.trfEnable:False
+	starting_display.line:ANYTONE
+}
+group 'pfkeys': {
+	pfkeys.keyMode1P1:A/B
+	pfkeys.keyMode1P2:V/M
+	pfkeys.keyMode1P3:MON
+	pfkeys.keyMode1P4:NULL
+	pfkeys.keyMode1P5:SCN
+	pfkeys.keyMode1P6:VOL
+	pfkeys.keyMode2P1:DIR
+	pfkeys.keyMode2P2:SFT
+	pfkeys.keyMode2P3:SQL
+	pfkeys.keyMode2P4:POW
+	pfkeys.keyMode2P5:CDT
+	pfkeys.keyMode2P6:BND
+	settings.keyPA:V/M
+	settings.keyPB:VOL
+	settings.keyPC:SCN
+	settings.keyPD:SQL
+}
+group 'dtmf': {
+	dtmf.autoResetTime:10000
+	dtmf.decodingResponse:None
+	dtmf.firstDigitTime:200
+	dtmf.groupCode:A
+	dtmf.intervalChar:*
+	dtmf.pauseTime:Off
+	dtmf.pretime:1000
+	dtmf.pttIdEnd:
+	dtmf.pttIdStart:
+	dtmf.remoteKill:
+	dtmf.remoteStun:
+	dtmf.sideTone:True
+	dtmf.timeLapse:1500
+	pttid/0.code:
+	pttid/1.code:
+	pttid/10.code:
+	pttid/11.code:
+	pttid/12.code:
+	pttid/13.code:
+	pttid/14.code:
+	pttid/15.code:
+	pttid/2.code:
+	pttid/3.code:
+	pttid/4.code:
+	pttid/5.code:
+	pttid/6.code:
+	pttid/7.code:
+	pttid/8.code:
+	pttid/9.code:
+	settings.dtmfTxTime:50 milliseconds
+}
